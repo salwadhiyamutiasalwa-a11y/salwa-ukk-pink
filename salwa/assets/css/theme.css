@@ -1,0 +1,233 @@
+:root {
+    --soft-pink: #f3a7bb;
+    --soft-pink-dark: #df7898;
+    --soft-pink-light: #fff0f4;
+    --soft-yellow: #f8dda4;
+    --soft-yellow-light: #fff8df;
+    --cream: #fffaf4;
+    --ink: #5d4b54;
+    --muted: #927d86;
+}
+
+body {
+    color: var(--ink);
+    background:
+        radial-gradient(circle at 8% 12%, rgba(248, 221, 164, 0.38), transparent 22rem),
+        radial-gradient(circle at 92% 88%, rgba(243, 167, 187, 0.22), transparent 24rem),
+        var(--cream);
+}
+
+.navbar {
+    background: linear-gradient(120deg, #d97999, #ed9fb4) !important;
+    border-bottom: 3px solid var(--soft-yellow);
+}
+
+.navbar-brand,
+.navbar .nav-link,
+.navbar .text-white {
+    color: #fffaf6 !important;
+}
+
+.navbar .nav-link {
+    border-radius: 999px;
+    padding-inline: 12px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    background: rgba(255, 248, 223, 0.24);
+    color: #fff !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.65);
+}
+
+.navbar .badge.bg-primary,
+.badge.bg-primary {
+    background: var(--soft-yellow) !important;
+    color: #735b32 !important;
+}
+
+.card,
+.card-custom,
+.card-form,
+.card-login,
+.popup-content {
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(243, 167, 187, 0.24);
+}
+
+.card-login,
+.card-form,
+.card-custom {
+    box-shadow: 0 14px 35px rgba(170, 112, 132, 0.12) !important;
+}
+
+.project-card {
+    box-shadow: 0 8px 24px rgba(170, 112, 132, 0.10) !important;
+}
+
+.project-card:hover {
+    box-shadow: 0 14px 30px rgba(170, 112, 132, 0.16) !important;
+}
+
+.card-title,
+.popup-title,
+h2, h3, h4 {
+    color: var(--ink);
+}
+
+.text-primary {
+    color: var(--soft-pink-dark) !important;
+}
+
+.text-success {
+    color: #dcae54 !important;
+}
+
+.text-dark {
+    color: #7d626c !important;
+}
+
+.text-muted,
+.popup-meta,
+.popup-desc {
+    color: var(--muted) !important;
+}
+
+.btn-primary,
+.btn-success {
+    --bs-btn-bg: var(--soft-pink);
+    --bs-btn-border-color: var(--soft-pink);
+    --bs-btn-hover-bg: var(--soft-pink-dark);
+    --bs-btn-hover-border-color: var(--soft-pink-dark);
+    --bs-btn-active-bg: #cf6688;
+    --bs-btn-active-border-color: #cf6688;
+    --bs-btn-color: #fff;
+}
+
+.btn-success {
+    --bs-btn-bg: #eebf73;
+    --bs-btn-border-color: #eebf73;
+    --bs-btn-hover-bg: #dda85a;
+    --bs-btn-hover-border-color: #dda85a;
+    --bs-btn-active-bg: #c99549;
+    --bs-btn-active-border-color: #c99549;
+    color: #fff !important;
+}
+
+.btn-warning {
+    --bs-btn-bg: var(--soft-yellow);
+    --bs-btn-border-color: #edc879;
+    --bs-btn-hover-bg: #efce83;
+    --bs-btn-hover-border-color: #e0b965;
+    --bs-btn-active-bg: #e1b967;
+    --bs-btn-active-border-color: #e1b967;
+    color: #725c35;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--soft-pink-dark);
+    --bs-btn-border-color: var(--soft-pink);
+    --bs-btn-hover-bg: var(--soft-pink);
+    --bs-btn-hover-border-color: var(--soft-pink);
+}
+
+.btn-outline-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: rgba(255, 255, 255, 0.72);
+    --bs-btn-hover-bg: rgba(255, 255, 255, 0.18);
+    --bs-btn-hover-border-color: #fff;
+}
+
+.btn-outline-secondary {
+    color: #866a76;
+    border-color: #e7bac8;
+}
+
+.btn-outline-secondary:hover {
+    background: var(--soft-pink-light);
+    border-color: #dfa2b4;
+    color: #704e5c;
+}
+
+.form-control,
+.input-group-text {
+    border-color: #efcad5;
+    color: var(--ink);
+}
+
+.form-control:focus {
+    border-color: #e9a5ba;
+    box-shadow: 0 0 0 0.25rem rgba(243, 167, 187, 0.16);
+}
+
+.input-group-text {
+    background: var(--soft-pink-light);
+}
+
+.input-group .bg-white {
+    background: #fff !important;
+}
+
+.table-custom th {
+    background: linear-gradient(120deg, #e9a0b7, #efc782) !important;
+    color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.45);
+}
+
+.table-hover tbody tr:hover {
+    background: var(--soft-pink-light);
+}
+
+.badge-super_admin {
+    background: #d98ca2;
+}
+
+.badge-admin {
+    background: var(--soft-yellow);
+    color: #725c35;
+}
+
+.badge-siswa {
+    background: #b8d7ca;
+    color: #52756a;
+}
+
+.alert-danger {
+    background: #fff0f2;
+    border-color: #f2bec9;
+    color: #9d5e70;
+}
+
+.alert-success {
+    background: #fff8df;
+    border-color: #f1dda7;
+    color: #806c3d;
+}
+
+.preview-box,
+.popup-img {
+    background: var(--soft-yellow-light);
+}
+
+.preview-box {
+    border-color: #edb4c5;
+}
+
+.popup-overlay {
+    background: rgba(94, 68, 79, 0.38);
+}
+
+.popup-close {
+    background: rgba(223, 120, 152, 0.88);
+}
+
+.popup-close:hover {
+    background: #cf6688;
+}
+
+.popup-actions {
+    border-top-color: #f5dce4;
+}
